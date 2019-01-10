@@ -1,0 +1,268 @@
+#topsection{
+    background-color:#303030;
+    position:relative;
+    display:flex;
+    margin-bottom:-20px;
+    padding:0;
+}
+
+#menu{
+    position:absolute;
+    right:0;
+    display:flex;
+    text-align:right;
+    font-size: 15px;
+    font-weight: :bold;
+    list-style: none;
+    padding-top:30px;
+    padding-right: 20px;
+    color:white;
+    margin:0;
+
+
+}
+nav ul li{
+
+    margin-right:15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color:#1a9edb;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* End Header */
+/* Start section Presentation */
+
+.presentation{
+    background-color:#2098d1;
+    background-size: cover;
+    width: 100%;
+    display:block;
+    margin:0;
+    padding:0;
+
+
+}
+.container{
+    padding-top:175px;
+
+    padding-bottom:200px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:25px;
+    text-align:center;
+    color:white;
+
+
+}
+
+.link{
+
+    color:#FFF;
+    text-transform: uppercase;
+    margin:0 auto;
+    padding:20px 50px;
+    display:flex;
+    width:10%;
+
+    justify-content: center;
+    border-radius:5px;
+    text-decoration:none;
+}
+.link:hover{
+    color:black;
+}
+/* start moi */
+#moi{
+    margin-top:-20px;
+    background-color:#F5F5DC;
+}
+
+
+.me{
+padding-top:175px;
+    text-align: center;
+
+
+    padding-bottom:250px;
+
+}
+.moipara{
+    padding-left:25%;
+    padding-right:25%;
+    text-align:center;
+    word-wrap:break-word;
+}
+#S{
+    color:#2098d1;
+}
+#G{
+    color:#2098d1;
+}
+.link1{
+    color:black;
+    text-transform: uppercase;
+    margin:0 auto;
+    padding:20px 50px;
+    display:flex;
+    width:10%;
+    justify-content: center;
+    border-radius:5px;
+    text-decoration:none;
+}
+.link1:hover{
+    color:#2098d1;
+}
+/* start compétences */
+#about{
+   padding-top:175px;
+    background-color:white;
+    padding-bottom:100px;
+
+
+}
+.skillh1{
+    text-align: center;
+    font-size:50px;
+    color:#999999;
+    position:relative;
+    padding-top:50px;
+
+}
+
+.gauge{
+    display:flex;
+    justify-content: space-between;
+    width:auto;
+
+
+}
+
+@media screen and and (max-device-width:900px) {
+    .gauge{
+        float:none;
+        clear:both;
+        width:100%;
+    }
+    #g1,#g2,#g3{
+        width:100%;
+    }
+}
+#g1,#g3,#g2{
+    width:33.3%;
+}
+.gauge i:nth-child(3){
+    display:flex;
+    font-size:30px;
+    color:#999999;   
+
+}
+
+.gauge i:nth-child(7){
+    display:flex;
+    font-size:30px;
+    color:#999999;
+
+}
+.gauge i:nth-child(5){
+    display:flex;
+    font-size:30px;
+    color:#999999;
+}
+.gauge i:nth-child(3):hover{
+    color:#1a9edb;
+}
+.gauge i:nth-child(7):hover{
+    color:#1a9edb;
+}
+.gauge i:nth-child(5):hover{
+    color:#1a9edb;
+}
+
+
+
+/* end conpétences */
+#portfolio{
+    padding-top:175px;
+    margin-top:150px;
+    background-color:#f77a7a;
+    color:white;
+    text-align:center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:30px;
+}
+.ligne1{
+    padding-top:30px;
+   
+    padding-right: 20ox;
+    padding-bottom:30px;
+  
+}
+.categories span{
+    padding-left:5px;
+    padding-right: 5px;
+   text-decoration:none;
+    color:white;
+   background-color:#D77A7A;
+   border-radius:5px;
+}
+.categories span:hover{
+    background-color:#BF7A7A;
+}
+.forme{
+  display:flex;
+  justify-content:center;
+    padding-top:20px;
+}
+.circle {
+	border: 2px solid #666666;
+	border-radius: 50%;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+
+	-webkit-box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+	box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+	width: 12px;
+	height: 12px;
+	z-index: 86;
+
+	-webkit-transition: background-color .5s ease-in-out;
+	-moz-transition: background-color .5s ease-in-out;
+	-o-transition: background-color .5s ease-in-out;
+	-ms-transition: background-color .5s ease-in-out;
+	transition: background-color .5s ease-in-out;
+margin-right:20px;
+}
+
+.circle.filled {
+	background-color: #666666;
+}
+.circle2 {
+	border: 2px solid #666666;
+	border-radius: 50%;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+
+	-webkit-box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+	box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+	width: 12px;
+	height: 12px;
+	z-index: 86;
+
+	-webkit-transition: background-color .5s ease-in-out;
+	-moz-transition: background-color .5s ease-in-out;
+	-o-transition: background-color .5s ease-in-out;
+	-ms-transition: background-color .5s ease-in-out;
+	transition: background-color .5s ease-in-out;
+    
+}
+
+.circle2.filled {
+	background-color: #666666;
+}
+
