@@ -25,16 +25,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         min: 0,
         max: 100,
         title: "Réseaux"
-
     });
   
-$('.circle').on('click', function(){
-  $(this).toggleClass('filled');
-});
-$('.circle2').on('click', function(){
-  $(this).toggleClass('filled');
-});  
-
 });
 var clickdevButton=0;
 var clickdesButton=0;
@@ -45,7 +37,7 @@ function clicj1(){
         clickdevButton=0;
         return;
     }
-    
+
 
     var image=document.createElement('IMG');
 
@@ -55,20 +47,20 @@ function clicj1(){
     image.style.paddingLeft="420px";
     image.style.display="inline-bloc";
     image.setAttribute('alt',"mes compétences");
-       
-       document.getElementById("langages").appendChild(image);
-    
+
+    document.getElementById("langages").appendChild(image);
+
     clickdevButton++;
 
 
 }
 function clicj2(){
-     if(clickdesButton===1){
+    if(clickdesButton===1){
         document.getElementById('langages').removeChild(document.getElementById("pictureDes"));
         clickdesButton=0;
         return;
     }
-    
+
 
     var image=document.createElement('IMG');
 
@@ -78,23 +70,26 @@ function clicj2(){
     image.style.paddingLeft="780px";
     image.style.display="inline-bloc";
     image.setAttribute('alt',"mes compétences");
-       
-       document.getElementById("langages").appendChild(image);
-    
+
+    document.getElementById("langages").appendChild(image);
+
     clickdesButton++;
 
-    
+
 }
 
 // Gestion de la fin du chargement de la page web
 window.addEventListener("load", function () {
-    
+
     var skillDev=document.getElementById("j1");
     skillDev.addEventListener("click",clicj1);
     var skillDes=document.getElementById("j2");
     skillDes.addEventListener("click",clicj2);
-    
-    
+$('.Pweb').click(function(){
+        $('circle').toggleClass( "filled" );
+});
 
 });
+
+
 
