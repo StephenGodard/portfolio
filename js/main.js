@@ -44,7 +44,10 @@ function clicj1(){
     image.setAttribute('src',"img/skills.png");
     image.id="pictureDev";
     image.class="img-responsive";
-    image.style.paddingLeft="420px";
+    image.style.position="absolute";
+    image.style.left="48%";
+    image.style.paddingTop="10%";
+    image.style.transform="translate(-50%, -50%)";
     image.style.display="inline-bloc";
     image.setAttribute('alt',"mes compétences");
 
@@ -67,7 +70,10 @@ function clicj2(){
     image.setAttribute('src',"img/skillsD.png");
     image.id="pictureDes";
     image.class="img-responsive";
-    image.style.paddingLeft="780px";
+    image.style.position="absolute";
+    image.style.left="68%";
+    image.style.paddingTop="10%";
+    image.style.transform="translate(-50%, -50%)";
     image.style.display="inline-bloc";
     image.setAttribute('alt',"mes compétences");
 
