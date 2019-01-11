@@ -194,7 +194,7 @@ padding-top:175px;
     font-family: 'Titillium Web', sans-serif;
     font-size:30px;
 }
-.ligne1{
+#ligne1{
     padding-top:30px;
    
     padding-right: 20ox;
@@ -238,7 +238,7 @@ padding-top:175px;
 margin-right:20px;
 }
 
-.circle.filled {
+#filled {
 	background-color: #666666;
 }
 .circle2 {

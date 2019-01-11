@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         max: 100,
         title: "Réseaux"
     });
-  
+
 });
 var clickdevButton=0;
 var clickdesButton=0;
@@ -77,6 +77,7 @@ function clicj2(){
 
 
 }
+var onglet=1;
 
 // Gestion de la fin du chargement de la page web
 window.addEventListener("load", function () {
@@ -85,11 +86,42 @@ window.addEventListener("load", function () {
     skillDev.addEventListener("click",clicj1);
     var skillDes=document.getElementById("j2");
     skillDes.addEventListener("click",clicj2);
-$('.Pweb').click(function(){
-        $('circle').toggleClass( "filled" );
-});
+
+    if(onglet===1){
+        var Pweb1=document.createElement('IMG');
+        Pweb1.style.paddingRight="20px";
+        Pweb1.setAttribute('src',"img/projet_cv.png");
+        document.getElementById('ligne1').appendChild(Pweb1);
+        var Pweb2=document.createElement('IMG');
+        Pweb2.setAttribute('src',"img/projet_securtou.png");
+        document.getElementById('ligne1').appendChild(Pweb2);
+
+        var Pweb3=document.createElement('IMG');
+        Pweb3.setAttribute('src',"img/projet_atelier.png");
+        document.getElementById('ligne2').appendChild(Pweb3);
+        var Pweb4=document.createElement('IMG');
+        Pweb4.setAttribute('src',"img/laptop.png");
+        document.getElementById('ligne2').appendChild(Pweb4);
+         $('.circle').attr('id',"filled");
+    }
+   $('.Pweb').click(function(){
+       $('.circle').attr('id',"filled");
+       
+       $('.circle2').removeAttr('id',"filled");
+   });
+     $('.Papp').click(function(){
+       $('.circle2').attr('id',"filled");
+       
+       $('.circle').removeAttr('id',"filled");
+   });
+
+                          
 
 });
+
+
+
+
 
 
 
