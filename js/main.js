@@ -86,8 +86,21 @@ window.addEventListener("load", function () {
     skillDev.addEventListener("click",clicj1);
     var skillDes=document.getElementById("j2");
     skillDes.addEventListener("click",clicj2);
-
-    if(onglet===1){
+   $('.Pweb').click(function(){
+       $('.circle').attr('id',"filled"); 
+       $('.circle2').removeAttr('id',"filled");
+       $('.circle3').removeAttr('id',"filled");
+       
+           var myNode = document.getElementById("ligne1");
+while (myNode.firstChild) {
+    myNode.removeChild(myNode.firstChild);
+}
+      var myNode1 = document.getElementById("ligne2");
+while (myNode1.firstChild) {
+    myNode1.removeChild(myNode1.firstChild);
+}
+       
+       
         var Pweb1=document.createElement('IMG');
         Pweb1.style.paddingRight="20px";
         Pweb1.setAttribute('src',"img/projet_cv.png");
@@ -102,13 +115,7 @@ window.addEventListener("load", function () {
         var Pweb4=document.createElement('IMG');
         Pweb4.setAttribute('src',"img/laptop.png");
         document.getElementById('ligne2').appendChild(Pweb4);
-         $('.circle').attr('id',"filled");
-    }
-   $('.Pweb').click(function(){
-       $('.circle').attr('id',"filled");
        
-       $('.circle2').removeAttr('id',"filled");
-       $('.circle3').removeAttr('id',"filled");
    });
      $('.Papp').click(function(){
        $('.circle2').attr('id',"filled");
@@ -116,11 +123,59 @@ window.addEventListener("load", function () {
          $('.circle').removeAttr('id',"filled");
        
        $('.circle').removeAttr('id',"filled");
+       var myNode = document.getElementById("ligne1");
+while (myNode.firstChild) {
+    myNode.removeChild(myNode.firstChild);
+}
+      var myNode1 = document.getElementById("ligne2");
+while (myNode1.firstChild) {
+    myNode1.removeChild(myNode1.firstChild);
+}
+          var Papp1=document.createElement('IMG');
+        Papp1.style.paddingRight="20px";
+        Papp1.setAttribute('src',"img/ui_1.png");
+        document.getElementById('ligne1').appendChild(Papp1);
+        var Papp2=document.createElement('IMG');
+        Papp2.setAttribute('src',"img/ui_2.png");
+        document.getElementById('ligne1').appendChild(Papp2);
+
+        var Papp3=document.createElement('IMG');
+        Papp3.setAttribute('src',"img/ui_3.png");
+        document.getElementById('ligne2').appendChild(Papp3);
+        var Papp4=document.createElement('IMG');
+        Papp4.setAttribute('src',"img/ui_4.png");
+        document.getElementById('ligne2').appendChild(Papp4);
+       
+         
    });
  $('.Pgraph').click(function(){
        $('.circle3').attr('id',"filled");
        $('.circle').removeAttr('id',"filled");
        $('.circle2').removeAttr('id',"filled");
+     
+         var myNode = document.getElementById("ligne1");
+while (myNode.firstChild) {
+    myNode.removeChild(myNode.firstChild);
+}
+      var myNode1 = document.getElementById("ligne2");
+while (myNode1.firstChild) {
+    myNode1.removeChild(myNode1.firstChild);
+}
+     
+       var Pgraph1=document.createElement('IMG');
+        Pgraph1.style.paddingRight="20px";
+        Pgraph1.setAttribute('src',"img/aria.gif");
+        document.getElementById('ligne1').appendChild(Pgraph1);
+        var Pgraph2=document.createElement('IMG');
+        Pgraph2.setAttribute('src',"img/bleach5.gif");
+        document.getElementById('ligne1').appendChild(Pgraph2);
+
+        var Pgraph3=document.createElement('IMG');
+        Pgraph3.setAttribute('src',"img/rin_stephen.jpg");
+        document.getElementById('ligne2').appendChild(Pgraph3);
+        var Pgraph4=document.createElement('IMG');
+        Pgraph4.setAttribute('src',"img/vampire.png");
+        document.getElementById('ligne2').appendChild(Pgraph4); 
    });
                           
 
