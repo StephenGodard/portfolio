@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-       
+
 
         <title> Mon portfolio</title>
         <link rel="stylesheet" href="css/style.css" />
@@ -44,66 +44,85 @@
 
             </p>
         </section>
- <section id="moi">
-     <div class="me">
-        <img  src="img/photo.png" alt="photodemoi" />
-     <h1><span id="S">S</span>tephen <span id="G">G</span>odard</h1>
-         <p class="moipara"> blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla
-</p>
-         
-         
-        </div>
-      <p><a class="link1" href="#about" > <i class="fas fa-angle-down"></i></a>
+        <section id="moi">
+            <div class="me">
+                <img  src="img/photo.png" alt="photodemoi" />
+                <h1><span id="S">S</span>tephen <span id="G">G</span>odard</h1>
+                <p class="moipara"> blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla
+                </p>
+
+
+            </div>
+            <p><a class="link1" href="#about" > <i class="fas fa-angle-down"></i></a>
         </section>
         <h1 id="about" class="skillh1">Compétences</h1>
-       
+
         <section>
-           
+
             <div class="gauge" id="add">
-                 
+
                 <img src="img/laptop.png" alt="compétences" />
 
                 <div id="g1" class="gauge"></div>
-                
+
                 <i class="fas fa-angle-double-down" id="j1"></i>
-                 
+
                 <div id="g2" class="gauge"></div>
-<i class="fas fa-angle-double-down" id="j2"></i>
+                <i class="fas fa-angle-double-down" id="j2"></i>
                 <div id="g3" class="gauge"></div>
-<i class="fas fa-angle-double-down" id="j3"></i>
+                <i class="fas fa-angle-double-down" id="j3"></i>
 
             </div>
 
-           <div id="langages"></div>
-              <p><a class="link1" href="#portfolio" > <i class="fas fa-angle-down"></i></a>
+            <div id="langages"></div>
+            <p><a class="link1" href="#portfolio" > <i class="fas fa-angle-down"></i></a>
 
         </section>
-       
+
         <section id="portfolio">
-            
+
             <h1> Portfolio </h1>
             <p> Vous retrouverez dans cette catégorie mes différents projets</p>
             <div class="categories">
                 <span class="Pweb" >Pages web</span>
-            <span class="Papp">Interfaces graphiques</span>
+                <span class="Papp">Interfaces graphiques</span>
                 <span class="Pgraph">Creation graphique</span>
             </div>
-        <div class="forme">
-<div class="circle" id="filled"></div>
-<div class="circle2"></div>
-<div class="circle3"></div>
-</div>
-        <div id="ligne1">
-           <img src="img/projet_cv.png" />
-            <img src="img/projet_securtou.png" />
-                
+            <div class="forme">
+                <div class="circle" id="filled"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+            </div>
+            <div id="ligne1">
+                <img src="img/projet_cv.png" />
+                <img src="img/projet_securtou.png" />
+
             </div>
             <div id="ligne2" >
-             <img src="img/projet_atelier.png" />
+                <img src="img/projet_atelier.png" />
                 <img src="img/laptop.png" />
             </div>
+             <p><a class="link" href="#footer" > <i class="fas fa-angle-down"></i></a>
         </section>
         <footer>
+            <div class="contact">
+                <h1> Contact</h1>
+                <form method="post" action="traitement.php">
+
+                    <p>
+                        <label>Nom</label>:<br/>
+                        <input type="text" name="nom" /><br/>
+                        <label>Prenom</label>:<br/>
+                        <input type="text" name="firstname"/><br/>
+                        <label>Adresse email</label>:<br/>
+                        <input type="email" name="mail" /><br/>
+                        <label>Message</label>:<br/>
+                        <textarea name="ameliorer" id="ameliorer"></textarea><br/><br/>
+                        <input type="submit" value="Envoyer" />
+                    </p>
+                </form>
+                <br/>
+            </div>
         </footer>
 
 
