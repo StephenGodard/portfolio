@@ -108,13 +108,20 @@ window.addEventListener("load", function () {
        $('.circle').attr('id',"filled");
        
        $('.circle2').removeAttr('id',"filled");
+       $('.circle3').removeAttr('id',"filled");
    });
      $('.Papp').click(function(){
        $('.circle2').attr('id',"filled");
+         $('.circle3').removeAttr('id',"filled");
+         $('.circle').removeAttr('id',"filled");
        
        $('.circle').removeAttr('id',"filled");
    });
-
+ $('.Pgraph').click(function(){
+       $('.circle3').attr('id',"filled");
+       $('.circle').removeAttr('id',"filled");
+       $('.circle2').removeAttr('id',"filled");
+   });
                           
 
 });
