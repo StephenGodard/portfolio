@@ -164,17 +164,18 @@ while (myNode1.firstChild) {
      
        var Pgraph1=document.createElement('IMG');
         Pgraph1.style.paddingRight="20px";
-        Pgraph1.setAttribute('src',"img/aria.gif");
+        Pgraph1.setAttribute('src',"img/shana.png");
         document.getElementById('ligne1').appendChild(Pgraph1);
-        var Pgraph2=document.createElement('IMG');
-        Pgraph2.setAttribute('src',"img/bleach5.gif");
-        document.getElementById('ligne1').appendChild(Pgraph2);
-
         var Pgraph3=document.createElement('IMG');
         Pgraph3.setAttribute('src',"img/rin_stephen.jpg");
-        document.getElementById('ligne2').appendChild(Pgraph3);
+        document.getElementById('ligne1').appendChild(Pgraph3);
+        var Pgraph2=document.createElement('IMG');
+        Pgraph2.setAttribute('src',"img/bleach5.gif");
+        document.getElementById('ligne2').appendChild(Pgraph2);
+
+     
         var Pgraph4=document.createElement('IMG');
-        Pgraph4.setAttribute('src',"img/vampire.png");
+        Pgraph4.setAttribute('src',"img/aria.gif");
         document.getElementById('ligne2').appendChild(Pgraph4); 
    });
                           
