@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #topsection{
     background-color:#303030;
     position:relative;
@@ -287,13 +291,38 @@ margin-right:20px;
 }
 
 /* Fin Portfolio */
+/* Footer */
 .contact{
     padding-top:175px;
     background-color:#303030;
      color:white;
-    text-align:center;
+    
     font-family: 'Titillium Web', sans-serif;
     font-size:30px;
     margin-top:-30px;
 }
+.contact h1{
+    text-align:center;
+}
 
+form{
+    text-align:center;
+}
+.footElem{
+    display:flex;
+    justify-content:space-around;
+    
+}
+#socialNetwork{
+    list-style: none;
+    display:flex;
+   
+    
+}
+.coordonner{
+   display:block;
+    
+}
+#socialNetwork li{
+    margin-right:15px;
+}
