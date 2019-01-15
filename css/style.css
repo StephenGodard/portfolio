@@ -1,5 +1,9 @@
-html {
-  scroll-behavior: smooth;
+*{
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
 }
 
 #topsection{
@@ -138,55 +142,96 @@ padding-top:175px;
 }
 
 .gauge{
+    margin:50px auto;
+    width: 60%;
+}
+.progressBar{
+    position: relative;
+    width: 80%;
+
+    height:40px;
+    background: #eeeeee;
+    margin-bottom: 20px;
+    border-radius:2px;
+    box-shadow:0 1px 2px #222;
+}
+.title{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    padding-left:10px;
+    float:left;
+    font-weight: bold;
+    color:#fff;
+    z-index: 10000;
+    box-shadow:2px 0 2px #333;
+    text-shadow:1px 1px 1px #000;
+    line-height:2.5;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.progress_value{
+    position: relative;
+    float:right;
+    padding-right: 10px;
+    line-height: 2.5;
+    font-weight: bold;
+    color:#455a64;
+    z-index:10000;
+
+
+}
+.progress{
+    height:40px;
+    position:absolute;
+    border-radius: 5px;
+    box-shadow:2px 0 2px #555;
+}
+.htmlColor{
+    background: #b71c1c;
+
+}
+.cssColor{
+    background: #4a148c;
+}
+.jsColor{
+    background:#f6f326;
+}
+.jqueryColor{
+    background: #2694f6;
+}
+.phpColor{
+    background: #7826f6;
+}
+.pythonColor{
+    background:#115626;
+}
+.html{
+    background: #b71c1c;
+
+}
+.css{
+    background: #4a148c;
+}
+.js{
+    background:#f6f326;
+}
+.jquery{
+    background: #2694f6;
+}
+.php{
+    background: #7826f6;
+}
+.python{
+    background:#115626;
+}
+.imageskill{
+    padding-right: 100px;
+    padding-top: 5%;
+}
+.doubleskill{
     display:flex;
-    justify-content: space-between;
-    width:auto;
-
-
 }
-
-@media screen and and (max-device-width:900px) {
-    .gauge{
-        float:none;
-        clear:both;
-        width:100%;
-    }
-    #g1,#g2,#g3{
-        width:100%;
-    }
-}
-#g1,#g3,#g2{
-    width:33.3%;
-}
-.gauge i:nth-child(3){
-    display:flex;
-    font-size:30px;
-    color:#999999;   
-
-}
-
-.gauge i:nth-child(7){
-    display:flex;
-    font-size:30px;
-    color:#999999;
-
-}
-.gauge i:nth-child(5){
-    display:flex;
-    font-size:30px;
-    color:#999999;
-}
-.gauge i:nth-child(3):hover{
-    color:#1a9edb;
-}
-.gauge i:nth-child(7):hover{
-    color:#1a9edb;
-}
-.gauge i:nth-child(5):hover{
-    color:#1a9edb;
-}
-
-
 
 /* end conpétences */
 #portfolio{
