@@ -1,8 +1,24 @@
 
-
+var clickBttonList=0;
 // Gestion de la fin du chargement de la page web
 window.addEventListener("load", function () {
-
+    
+    
+    $('#mobile-menu').click(function(){
+        if (clickBttonList===1){
+            $("#menuList").hide('slow');
+            clickBttonList=0;
+            return;
+        }
+        if(clickBttonList===0){
+            $("#menuList").show('slow');
+            clickBttonList=1;
+            return;
+            
+        }
+  
+    });
+    
     $('.html').animate({width:'80%'},2000);
     $('.css').animate({width:'60%'},2000);
     $('.js').animate({width:'75%'},2000);

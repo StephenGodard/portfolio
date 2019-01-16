@@ -13,7 +13,9 @@
     margin-bottom:-20px;
     padding:0;
 }
-
+#titreM{
+    display:none;
+}
 #menu{
     position:absolute;
     right:0;
@@ -28,6 +30,9 @@
     margin:0;
 
 
+}
+#mobile-menu{
+    display:none;
 }
 nav ul li{
 
@@ -367,6 +372,10 @@ form{
 .coordonner{
    display:block;
     
+}
+#map{
+    width:30%;
+    height:400px;
 }
 #socialNetwork li{
     margin-right:15px;

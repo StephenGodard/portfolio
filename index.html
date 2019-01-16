@@ -1,19 +1,4 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="utf-8" />
 
-
-	<title> Mon portfolio</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700">
-	<link rel="stylesheet" href="css/fontawesome.css" />
-	<link rel="stylesheet" href="css/normalize.css" />
-	<link rel="stylesheet" href="css/animate.css" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/aja<!doctype html>
 		<html>
 		<head>
 			<meta charset="utf-8" />
@@ -26,14 +11,14 @@
 			<link rel="stylesheet" href="css/fontawesome.css" />
 			<link rel="stylesheet" href="css/normalize.css" />
 			<link rel="stylesheet" href="css/animate.css" />
+			<link rel="stylesheet" media="screen and (max-width: 600px)" href="css/style-mobile.css">
 			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 			<script src="js/main.js"></script>
 			<script src="js/jquery.js"></script>
-			<script src="js/justgage/justgage.js"></script>
-			<script src="js/justgage/raphael-2.1.4.min.js"></script>
+		
 			<script src="js/animate.js"></script>
 
 		</head>
@@ -41,6 +26,7 @@
 			<div id="topsection">
 				<header>
 					<img src="img/logo.png" alt="Mon logo"/>
+                    <div id="titreM" > <span style="color:#2098d1">S</span>tephen <span style="color:#2098d1">G</span>odard </div>
 				</header>
 				<nav>
 					<ul id="menu">
@@ -50,10 +36,25 @@
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
+					<div id="mobile-menu">
+                    
+					    <i class="fas fa-align-justify fa-2x"></i>
+					</div>
+					
 				</nav>
-
+               
 			</div>
-
+			<section>
+			      <div id="menuList">
+                  <div class="lien1"> <a href="#presentation">Home</a></div>
+						<div class="lien2"><a href="#moi">Présentation</a></div>
+						<div class="lien3"> <a href="#about">Compétences</a></div>
+                      <div class="lien4"><a href="#portfolio">Portfolio</a> </div>
+						<div class="lien5"><a href="#contact">Contact</a></div>
+               
+                </div>
+			</section>
+   
 			<section class="presentation">
 				<div class="container fill">
 					<h1> Développeur web Junior</h1>
@@ -80,9 +81,10 @@
 					<p><a class="link1" href="#about" > <i class="fas fa-angle-down"></i></a>
 					</div>
 				</section>
-				<h1 id="about" class="skillh1">Compétences</h1>
-
+			
 				<section>
+					<h1 id="about" class="skillh1">Compétences</h1>
+
 					<div class="hideme">
 					<div class="doubleskill">
 					<div class="imageskill">
@@ -197,7 +199,7 @@
 											<input type="submit" value="Envoyer" />
 										</p>
 									</form>
-									<div id="map" style="width:30%;height:400px;"></div>
+									<div id="map"></div>
 									<script>
 
 										function initMap() {

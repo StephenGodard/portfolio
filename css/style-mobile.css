@@ -1,0 +1,125 @@
+body{
+    width: auto;
+    font-size:16px;
+    
+    
+}
+#menu{
+    display:none;
+}
+#titreM{
+    padding-top: 15%;
+    display:block;
+    color:#ffffff;
+    padding-bottom: 5%;
+   
+    
+}
+
+header img{
+    display:none;
+}
+section{
+    height: auto;
+}
+
+#mobile-menu{
+      display:block;
+    position:absolute;
+    right:0;
+    color:#ffffff;
+    background-color: #303030;
+   
+}
+#menuList{
+    display:none;
+    padding-top: 5%;
+    background-color:#303030;
+    height:30%;
+
+
+}
+
+#menuList a{
+    color:white;
+}
+
+
+#menu list a{
+    color:white;
+}
+.lien1:hover,.lien2:hover, .lien3:hover , .lien4:hover,.lien5:hover{
+    background-color:#1a9edb;
+}
+/* 1er rectangle bleu */
+#topsection{
+     background-color:;
+    background-size:cover;
+    display:flex;
+}
+.container{
+    padding-top: 30%;
+    height: 95%;
+}
+/* second rectangle beige */
+.me{
+    padding-top:5%;
+    padding-bottom: 0%;
+    height: 95%;
+    
+}
+/* Troisième rectangle blanc */
+#about{
+    padding-top: 0px;;
+        height:95%;
+   
+}
+.skillh1{
+    display:inline;
+    padding-left: 20%;
+   
+    
+}
+.doubleskill{
+    display:block;
+}
+.gauge{
+    width:auto;
+    padding-left:20%;
+}
+.imageskill{
+    padding-right: 0px;
+    padding-top: 5%;
+}
+/*quatrième rectangle rose */
+
+.categories span{
+    padding-left:0px;
+    padding-right: 0px;
+   text-decoration:none;
+   
+    color:white;
+   background-color:#D77A7A;
+   border-radius:5px;
+}
+#portfolio{
+    padding-top: 0px;
+}
+/* cinquième rectangle noir */
+.contact{
+    padding-top: 0px;
+    margin-top: -10%;
+}
+.footelem{
+    display:block;
+}
+form{
+    text-align:justify;
+}
+label{
+    text-align: justify;
+}
+#map{
+    width:80%;
+    height: 45%;
+}
