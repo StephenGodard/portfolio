@@ -350,7 +350,7 @@ margin-right:20px;
     padding-top:175px;
     background-color:#303030;
      color:white;
-    
+    text-align:center;
     font-family: 'Titillium Web', sans-serif;
     font-size:30px;
     margin-top:-30px;
@@ -362,6 +362,11 @@ margin-right:20px;
 form{
     text-align:center;
 }
+.footMobile{
+    display:flex;
+    justify-content:space-around;
+    
+}
 .footElem{
     display:flex;
     justify-content:space-around;
@@ -370,11 +375,12 @@ form{
 #socialNetwork{
     list-style: none;
     display:flex;
-   
+   padding-left: 20%;
     
 }
 .coordonner{
    display:block;
+    margin-right:5%;
     
 }
 #map{

@@ -1,7 +1,7 @@
 body{
-    width: auto;
-    font-size:16px;
-    
+    width: 100%;
+    font-size:40px;
+    height: 100%;
     
 }
 #menu{
@@ -14,6 +14,9 @@ body{
     padding-bottom: 5%;
    
     
+}
+section{
+    height: 85%;
 }
 
 header img{
@@ -68,6 +71,12 @@ section{
     height: 95%;
     
 }
+.moipara{
+   
+    display: contents;
+    
+    overflow:hidden;
+}
 /* Troisième rectangle blanc */
 #about{
     padding-top: 0px;;
@@ -75,20 +84,25 @@ section{
    
 }
 .skillh1{
-    display:inline;
-    padding-left: 20%;
-   
+text-align: center;
+
     
 }
 .doubleskill{
     display:block;
 }
 .gauge{
-    width:auto;
-    padding-left:20%;
+    width:100%;
+    
+}
+.title{
+      font-size:16px;
+}
+.progress_value{
+      font-size:16px;
 }
 .imageskill{
-    padding-right: 0px;
+    padding-left: 20%;
     padding-top: 5%;
 }
 /*quatrième rectangle rose */
@@ -108,18 +122,42 @@ section{
 /* cinquième rectangle noir */
 .contact{
     padding-top: 0px;
-    margin-top: -10%;
+    margin-top: -5%;
+    
+    
 }
-.footelem{
+.contact h1{
+    text-align:center;
+    padding-right: 7%;
+}
+#socialNetwork{
+padding-left: 15%;
+}
+.coordonner{
+    margin-right: 10%;
+}
+.footMobile{
     display:block;
 }
+
+.footElem{
+    display:flex;
+}
+
 form{
     text-align:justify;
 }
 label{
     text-align: justify;
 }
+input[type=message] {
+    width: 10em;  height: 2em;
+}
+input[type=submit] {
+    width: 10em;  height: 2em;
+}
 #map{
-    width:80%;
-    height: 45%;
+    display:block;
+    width:75%;
+    
 }
