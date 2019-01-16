@@ -31,7 +31,11 @@
 
 
 }
+
 #mobile-menu{
+    display:none;
+}
+#menuList{
     display:none;
 }
 nav ul li{
